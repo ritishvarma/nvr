@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser'
 import SEO from '../seo/SEO'
 import SectionHeader from '../components/common/SectionHeader'
 import PrimaryButton from '../components/common/PrimaryButton'
@@ -231,4 +231,3 @@ const Contact = () => {
 }
 
 export default Contact
-

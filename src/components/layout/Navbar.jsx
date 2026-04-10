@@ -17,9 +17,7 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 backdrop-blur bg-slate-900/80 border-b border-slate-800">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:py-4">
         <Link to="/" className="flex items-center gap-2">
-          <div className="h-9 w-9 rounded-full bg-accent flex items-center justify-center font-bold text-slate-900">
-            N
-          </div>
+          <img src="/logo.png" alt="NVR Constructions Logo" className="h-10 w-auto object-contain drop-shadow-md" />
           <div className="flex flex-col leading-tight">
             <span className="text-sm md:text-base font-bold text-slate-50">
               NVR Constructions

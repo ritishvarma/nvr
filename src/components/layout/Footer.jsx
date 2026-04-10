@@ -12,9 +12,12 @@ const Footer = () => {
     <footer className="border-t border-slate-800 bg-slate-950">
       <div className="mx-auto max-w-6xl px-4 py-10 grid gap-8 md:grid-cols-4">
         <div className="md:col-span-2 space-y-3">
-          <h3 className="text-lg font-semibold text-slate-50">
-            {COMPANY_NAME}
-          </h3>
+          <div className="flex items-center gap-3">
+            <img src="/logo.png" alt="NVR Logo" className="h-10 w-auto object-contain" />
+            <h3 className="text-lg font-semibold text-slate-50">
+              {COMPANY_NAME}
+            </h3>
+          </div>
           <p className="text-sm text-slate-400 max-w-md">
             We collaborate with homeowners, developers, and businesses to build
             durable, future-ready spaces with complete transparency.
